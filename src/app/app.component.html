@@ -53,3 +53,11 @@
 
 <!--property binding-->
 <div [innerHTML]="title"></div>
+
+
+<!--two way data binding-->
+<br><br>
+<label> Enter Name:</label>
+  <input type="text" name="name" [(ngModel)]="customerName"/>
+<br><br>
+{{customerName}}
